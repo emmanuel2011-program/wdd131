@@ -9,25 +9,47 @@
     <link rel="stylesheet" href="styles/temple.css">
     <link rel="stylesheet" href="styles/temples-large.css" media="screen and (min-width:768px)">
     <title>Temples Album</title>
-    <script src="temples.js" defer></script>
-</head>
+    <script src="scripts/temples.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet">
+    
+</head>
 <body>
     <header>
         <h1>Temple Album</h1>
-        <nav class="navigation">
-            <a href="images/aba-nigeria-temple.jpg" target="_blank">Home</a>
-            <a href="images/aba-nigeria-temple.jpg" target="_blank">Old</a>
-            <a href="images/aba-nigeria-temple.jpg" target="_blank">New</a>
-            <a href="images/aba-nigeria-temple.jpg" target="_blank">Large</a>
-            <a href="images/aba-nigeria-temple.jpg" target="_blank">Small</a>
+        <nav>
+            <ul>
+              <li>
+                <a href="images/aba-nigeria-temple.jpg" target="_blank">Home</a>
+              </li>
+              <li>
+                <a href="images/aba-nigeria-temple.jpg" target="_blank">Old</a>
+              </li>
+              <li>
+                <a href="images/aba-nigeria-temple.jpg" target="_blank">New</a>
+              </li>
+              <li>
+                <a href="images/aba-nigeria-temple.jpg" target="_blank">Large</a>
+              </li>
+              <li>
+                <a href="images/aba-nigeria-temple.jpg" target="_blank">Small</a>
+              </li>
+            </ul>
+            <button id="hamburger">&#9776;</button>
         </nav>
     </header>
     <main>
         <h2>Home</h2>
         <figure>
             <img src="images/aba-nigeria-temple.jpg" alt="Aba Nigeria temple">
-            <figcaption>Aba Temple</figcaption>
+            <figcaption>Aba Nigeria Temple</figcaption>
+        </figure>
+        <figure>
+            <img src="images/aba-nigeria-temple.jpg" alt="Aba Nigeria temple">
+            <figcaption>Aba Nigeria Temple</figcaption>
         </figure>
         <figure>
             <img src="images/aba-nigeria-temple.jpg" alt="Aba Nigeria temple">
@@ -35,31 +57,27 @@
         </figure>
         <figure>
             <img src="images/aba-nigeria-temple.jpg" alt="Aba Nigeria temple">
-            <figcaption>Aba Temple</figcaption>
+            <figcaption>Aba Nigeria Temple</figcaption>
         </figure>
         <figure>
             <img src="images/aba-nigeria-temple.jpg" alt="Aba Nigeria temple">
-            <figcaption>Aba Temple</figcaption>
+            <figcaption>Aba Nigeria Temple</figcaption>
         </figure>
         <figure>
             <img src="images/aba-nigeria-temple.jpg" alt="Aba Nigeria temple">
-            <figcaption>Aba Temple</figcaption>
+            <figcaption>Aba Nigeria Temple</figcaption>
         </figure>
         <figure>
             <img src="images/aba-nigeria-temple.jpg" alt="Aba Nigeria temple">
-            <figcaption>Aba Temple</figcaption>
+            <figcaption>Aba Nigeria Temple</figcaption>
         </figure>
         <figure>
             <img src="images/aba-nigeria-temple.jpg" alt="Aba Nigeria temple">
-            <figcaption>Aba Temple</figcaption>
+            <figcaption>Aba Nigeria Temple</figcaption>
         </figure>
         <figure>
             <img src="images/aba-nigeria-temple.jpg" alt="Aba Nigeria temple">
-            <figcaption>Aba Temple</figcaption>
-        </figure>
-        <figure>
-            <img src="images/aba-nigeria-temple.jpg" alt="Aba Nigeria temple">
-            <figcaption>Aba Temple</figcaption>
+            <figcaption>Aba Nigeria Temple</figcaption>
         </figure>
 
 
@@ -67,7 +85,10 @@
 
     </main>
     <footer>
-        <p>&copy; 2024 Temples Inc.</p>
+        <p>
+          &copy; <span id="currentyear"></span> Emmanuel Okoye, Abuja, Nigeria
+        </p>
+        <p id="lastModified"></p>
     </footer>
 </body>
 
