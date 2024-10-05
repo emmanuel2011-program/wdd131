@@ -23,6 +23,7 @@ nav ul {
   padding: 0;
   margin: 0;
   
+  
 }
 
 nav ul li {
@@ -32,9 +33,6 @@ nav ul li {
 nav a {
   color: #fff;
   text-decoration: none;
-  border: 3px solid #fff;
-  
-  
 }
 
 nav a:hover {
