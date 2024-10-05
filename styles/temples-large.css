@@ -1,6 +1,6 @@
 @media screen and (min-width: 600px) {
     nav ul {
-      display: flex !important; /* Forçar a exibição em visualizações maiores */
+      display: flex !important; 
       flex-direction: row !important;
       gap: 20px;
       justify-content: center;
@@ -18,7 +18,7 @@
     }
   
     #hamburger {
-      display: none; /* Ocultar o botão de menu hambúrguer em visualizações maiores */
+      display: none; 
     }
   
     main {
