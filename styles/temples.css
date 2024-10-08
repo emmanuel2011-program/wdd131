@@ -5,6 +5,11 @@ body {
   border: solid wheat;
   width: 940px;
 }
+main {
+  padding: 20px;
+  width: 90%;
+  max-width: 1200px;
+}
 
 header {
   display: flex;
@@ -57,10 +62,11 @@ main {
 }
 
 figure {
+  margin: 20px 0;
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
   
-  position: relative;
-  overflow: hidden;
-  max-width: 100%;
 }
 
 img {
@@ -70,6 +76,7 @@ img {
 .responsive {
   width: 100%;
   height: auto;
+  display: block;
 
   
 }
