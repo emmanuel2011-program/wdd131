@@ -57,15 +57,21 @@ main {
 }
 
 figure {
-  margin:  0;
+  
   position: relative;
   overflow: hidden;
   max-width: 100%;
 }
 
-.responsive img {
+img {
   width: 100%;
   height: auto;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+
+  
 }
 
 footer {
