@@ -27,9 +27,8 @@
       margin: auto;
       display: flex;
     }
-    .grid-container {
-      grid-template-columns: 1fr;
-    }
+    
+    
     figure {
       display: inline-block;
       width: 30%;
