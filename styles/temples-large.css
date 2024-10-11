@@ -27,7 +27,7 @@
       margin: auto;
       display: flex;
     }
-    grid-container {
+    .grid-container {
       grid-template-columns: 1fr;
     }
     figure {
