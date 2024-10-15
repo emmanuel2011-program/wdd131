@@ -1,48 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This page shows temple pictures in an album">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="WDD 131 - Place Page for Okoye Emmanuel">
     <meta name="author" content="Okoye Emmanuel">
+    <meta name="keywords" content="Okoye Emmanuel">
+
     <link rel="stylesheet" href="styles/place.css">
-    <link rel="stylesheet" href="styles/place-large.css" media="screen and (min-width:768px)">
-    <title>Temples Album</title>
-    <script src="scripts/place.js" defer></script>
+    <link rel="stylesheet" href="styles/place-large.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <title>Place Page - Okoye Emmanuel</title>
 </head>
 <body>
     <header>
-        <h1>Kigali</h1>
+        <h1>Nigeria</h1>
     </header>
+    
     <main>
-      <h2>Data</h2>
-      <nav class="items">
-        <ul>
-            <li>e;333</li>
-            <li>3333</li>
-            <li>3333333</li>
-            <li>333333</li>
-            <li>3333333333</li>
-            <li>33333333333</li>
-            <li>3333333333</li>
-            <li>33333333333</li>
-            <li>33333333333</li>
-            <li>3333333333</li>
-            <li>33333333</li>
-            <li>333333333</li>
-        </ul>
-      </nav>
-      <img src="images/bufallo.webp" alt="space gallaxies" class="cordgalaxy">
+        <figure>
+            <picture class="heroImage">
+                <source srcset="images/landscape-savannah.webp" media="(min-width: 550px)">
+                <img src="images/landscape-savannah.webp" width="499" height="750" alt="African Savannah Giraffe">
+            </picture>
+            <figcaption>Photo by <a href="https://www.pexels.com/@eva-purrer-1937326549/">Eva Purrer</a> on <a href="https://www.pexels.com/">Unsplash</a>
+            </figcaption>
+        </figure>
+
+        <div class="div">
+            <h2 class="item">
+                Data
+            </h2>
+
+            <p>Area:</p>
+            <span>356,669sq.mi.</span>
+
+            <p>Population:</p>
+            <span>230,000,000 (est.)</span>
+            
+            <p>Capitals:</p>
+            <span>Abuja, Fct</span>
+            
+            <p>Currency:</p>
+            <span>English, Hausa,Igbo, Yoruba</span>
+
+            <p>Time Zone:</p>
+            <span>UTC+1</span>
+
+            <p>Calling Code:</p>
+            <span>+234</span>
+
+            <p>Internet TLD:</p>
+            <span>.ng</span>
+        </div>
+
+        <div class="weather">
+            <h2>
+                Weather
+            </h2>
+
+            <!-- The <span> tag is much like the <div> element, but <div>
+                 is a block-level element and <span> is an inline element. -->
+            <p>Temperature:</p>
+            <span id="temp"></span>
+
+            <p>Conditions:</p>
+            <span id="condition">Partly Cloudy</span>
+            
+            <p>Wind:</p>
+            <span id="wind">5 km/h</span>
+            
+            <p>Wind Chill:</p>
+            <span id="chill">--</span>
+
+            <div id="chill-button">
+                <button>Calculate Wind Chill</button>
+            </div>
+        </div>
+
     </main>
+
     <footer>
-        <p>
-          &copy; <span id="currentyear"></span> Emmanuel Okoye, Abuja, Nigeria
-        </p>
-        <p id="lastModified"></p>
+        <p id="copywrite"></p>
+        <p id="modified"></p>
     </footer>
 </body>
 </html>
