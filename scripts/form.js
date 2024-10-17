@@ -1,17 +1,17 @@
 const products = [
     {
-      id: "fc-1888",
+      id: "ac-1978",
       name: "flux capacitor",
     //   avg-rating: 4.5  :: Assignment typo
       averagerating: 4.5
     },
     {
-      id: "fc-2050",
+      id: "fc-2456",
       name: "power laces",
       averagerating: 4.7
     },
     {
-      id: "fs-1987",
+      id: "ad-2022",
       name: "time circuits",
       averagerating: 3.5
     },
@@ -21,7 +21,7 @@ const products = [
       averagerating: 3.9
     },
     {
-      id: "jj-1969",
+      id: "ee-1978",
       name: "warp equalizer",
       averagerating: 5.0
     }
