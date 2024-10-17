@@ -1,0 +1,41 @@
+@media screen and (min-width: 600px) {
+    nav ul {
+      display: flex !important; 
+      flex-direction: row !important;
+      justify-content: center;
+      
+      
+    }
+
+    header {
+      display: flex;
+      justify-content: center !important;
+    }
+    
+    nav ul li {
+      margin: 0 15px;
+    }
+  
+    #hamburger {
+      display: flex;
+      display: none; 
+      justify-content: center;
+    }
+  
+    main {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+    }
+    
+    
+    figure {
+      display: inline-block;
+      width: 30%;
+      margin: 1.5%;
+    }
+  
+    img {
+      width: 100%;
+    }
+  }
