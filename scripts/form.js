@@ -1,28 +1,28 @@
 const products = [
     {
       id: "ac-1978",
-      name: "flux capacitor",
+      name: "input capacitor",
     //   avg-rating: 4.5  :: Assignment typo
       averagerating: 4.5
     },
     {
       id: "fc-2456",
-      name: "power laces",
+      name: "power shunts",
       averagerating: 4.7
     },
     {
       id: "ad-2022",
-      name: "time circuits",
+      name: "miniature circuits",
       averagerating: 3.5
     },
     {
       id: "ac-2000",
-      name: "low voltage reactor",
+      name: "power cable",
       averagerating: 3.9
     },
     {
       id: "ee-1978",
-      name: "warp equalizer",
+      name: "audio equalizer",
       averagerating: 5.0
     }
   ];
