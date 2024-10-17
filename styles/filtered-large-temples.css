@@ -1,41 +1,34 @@
-@media screen and (min-width: 600px) {
-    nav ul {
-      display: flex !important; 
-      flex-direction: row !important;
-      justify-content: center;
-      
-      
-    }
-
+@media screen and (min-width: 780px) {
     header {
-      display: flex;
-      justify-content: center !important;
+		display: flex;
+		/* flex-direction: defined in #layout ID; */
+		align-items: flex-end;
+	    justify-content: space-between;
+	}
+	
+	#layout {
+		/* display: flex defined in header tag */
+		flex-direction: row;
+	}
+
+     /* hide hamburger button */
+	#menu {
+		display: none;
+	}
+
+	.navigation {
+		display: flex;
+		flex-direction: row;
+	}
+	
+     /* change state in large view */
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+    .navigation a:hover {
+        background-color: red;
+        color: #333;
+        font-weight: 700;
     }
-    
-    nav ul li {
-      margin: 0 15px;
-    }
-  
-    #hamburger {
-      display: flex;
-      display: none; 
-      justify-content: center;
-    }
-  
-    main {
-      max-width: 1200px;
-      margin: auto;
-      display: flex;
-    }
-    
-    
-    figure {
-      display: inline-block;
-      width: 30%;
-      margin: 1.5%;
-    }
-  
-    img {
-      width: 100%;
-    }
-  }
+}
