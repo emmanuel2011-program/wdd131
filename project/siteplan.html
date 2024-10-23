@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - project page for Okoye Emmanuel">
+    <meta name="author" content="Okoye Emmanuel">
+    <meta name="keywords" content="SulejaHHMC, HTML Java Scripts, CSS, Customer training, loan Application, Agricultural Projects, Account Registration,Account Opening, Payment Request,Credit Card App, Mobile Application, ">
+    <link rel="stylesheet" href="styles/SulejaHHMC">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <script src="scripts/SulejaHHMC.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <title>SulejaHHMC Home</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/savings.jpg"  width="400" height="134" alt="SulejaHHMC design logo of hand holding up a coin">
+        <h1 class="action">World class Credit and Loan Cooperative</h1>
+        <h2>Navigation Menu</h2>
+        <nav class="Navigation items">
+            <ul>
+                <li><a href="#" id="Home">Home</a></li>
+                <li><a href="#" id="Trainings">Staff Training</a></li>
+                <li><a href="#" id="products">Product and services</a></li>
+                <li><a href="#" id="Aabout">About SulejaHHMC</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+         <div>
+            <h2>
+                SulejaHHMC Design - Site plan information
+            </h2>
+
+            <p>
+                The new web pages are intended to use proper techniques learned in class to
+                both simplify and improve the web pages located at www.sulejaHHMC-design.com
+            </p>
+        </div>
+
+        <div>
+            <h2>
+                Step 1 - Setup
+            </h2>
+
+            <p>
+                This file: siteplan.html
+            </p>
+
+            <h2>
+                Step 2 - Site Content
+            </h2>
+
+            <ol class="indent">
+                <li>Site Name: The SulejaHHMC Design Home Page</li>
+                <li>Site Purpose: Describe SulejaHHMC Design Works services and training.
+                    Offer free downloadable copies of Loan Application forms. These apllication form
+                    have been freely downloadable for 3+ years.
+                </li>
+                <li>
+                    Scenarios:
+                    <ul class="indent">
+                        <li>How can I download SulejaHHMC forms?
+                            (At the end of each form is a short description of the types of training
+                            offered by sulejaHHMC-design)</li>
+                        <li>What types of training and serviices are offered by SulejaHHMC?</li>
+                        <li>How can I contact sulejaHHMC-design to request information about trianing?</li>
+                    </ul>
+                </li>
+                <li>Color Schema: The colors are defined in the :root element at the top of 
+                    styles/sulejaHHMC.css file. I am currently using --sunburst_red: for the logo text
+                    and --back_color1: for the footer. More colors will be used as the project progresses</li>
+                <li>Typography: <br>
+                I explicityl use Roboto family in both the body and h1-header</li>
+                <li>Wireframe:<br> 
+                Preliminary Main and Mobile wireframe images are shown below.</li>
+            </ol>
+            <img src="images/MainWireframe_400_534.png" alt="Main Wireframe image" width="400">
+            <img src="images/MobileWireframe_400_534.png" alt="Mobile Wireframe image" width="400">
+        </div>
+
+        <h2>
+            Step 3 - CSS
+        </h2>
+        
+        <p>Basic CSS file is located at styles/SulejaHHMC.css</p>
+
+        <h2>
+            Step 4 - Testing
+        </h2>
+
+        <ul class="indent">
+            <li>Tested Using: Nu Html Checker - https://validator.w3.org/nu/</li>
+            <li>Tested Using: W3C CSS checker - https://jigsaw.w3.org/css-validator/</li>
+            <li>Tested Using: Website Inspection - CSS overview</li>
+            <li>Tested Using: Website Inspection - Lighthouse</li>
+            <li>Tested Using: Website Inspection - Console - No Errors</li>
+        </ul>
+
+        <h2>
+            Step 5 - Submission
+        </h2>
+
+        <p>Submitted as:  https://emmanuel2011-program.github.io/wdd131/project/siteplan.html</p>
+
+        <div>
+            <h2>Sunbrust Design papers page</h2>
+            <p>
+                The papers page holds information about the 50+ conference papers that I have
+                given since 1993. This page is frequently visited by engineers and engineering 
+                students to download my papers. If you do a scholar.google.com search on
+                ("cliff cummings" AND verilog) you will find that my papers are frequently 
+                referenced by engineers and universities. The objective is to make this page
+                friendly and usable by mobile devices.
+            </p>
+        </div>
+
+        <h2>About scripts/sunburst.js file</h2>
+        <p>
+            This file has already been populated with 1400 lines of paper data to be inserted
+            into the properly formated papers page. The original version of this page uses a
+            very large number of tables and table-cells and is very hard to maintain.
+            See the original papers-page at www.sunburst-design.com/papers
+        </p>
+        
+        <div>
+            <h2>Sunbrust Design Expert Training page</h2>
+            <p>
+                The training page will list training courses offerings by
+                Paradigm Works/Sunburst Design. The page will also include contact information
+                to request more information about our training classes. This is intended to 
+                replace the current training page viewable at www.sunburst-design.com/verilog_training
+            </p>
+        </div>
+                
+        <div>
+            <h2>About Cliff Cummings page</h2>
+            <p>
+                This page will now use proper web development styles and 
+                include my extended Bio. It is intended to
+                replace the current training page viewable at www.sunburst-design.com/cliffc
+            </p>
+        </div>    
+    </main>
+
+    <footer>
+        <p>Contact information will be included in the footer of each page.</p>
+        <p id="copywrite"></p>
+        <p id="modified"></p>
+    </footer>
+</body>
+</html>
+
+    </main>
+</body>
+
+</html>
