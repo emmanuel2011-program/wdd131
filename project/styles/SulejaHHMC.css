@@ -8,5 +8,9 @@
         --accent_color3: #EFEFEF;
         --wild_red: #FF0000;
         --sunburst_red: #CC0000;
-    
+        
+}
+
+body, h1 {
+        font-family: "Roboto", sans-serif;
 }
