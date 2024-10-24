@@ -2,7 +2,7 @@
 
         --back_color1: #0D1B2A;
         --back_color2: #1D5599;
-        --back_color3: #57849C;
+        --background-color3: #57849C;
         --accent_color1: #7FC6DE;
         --accent_color2: #DFDFDF;
         --accent_color3: #EFEFEF;
@@ -14,4 +14,7 @@
 body, h1 {
         font-family: "Roboto", sans-serif;
         color: #1D5599;
+        
 }
+
+
