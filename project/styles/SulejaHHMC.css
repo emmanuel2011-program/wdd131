@@ -1,20 +1,20 @@
 :root{
 
         --back_color1: #0D1B2A;
-        --back_color2: #1D5599;
-        --background-color3: #57849C;
-        --accent_color1: #7FC6DE;
+        --background_color: #1D5599;
         --accent_color2: #DFDFDF;
-        --accent_color3: #EFEFEF;
-        --wild_red: #FF0000;
-        --sunburst_red: #CC0000;
+
         
 }
 
-h1, body {
+body {
         font-family: "Roboto", sans-serif;
-        color: #1D5599;
+        color: #DFDFDF;
+        background-color: #1D5599;
         
 }
 
-
+h2 {
+        color: #0D1B2A;
+        background-color: #1D5599;
+}

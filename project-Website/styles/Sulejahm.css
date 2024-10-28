@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #4f5e0f;
+    --secondary-color: #721e21;
+    --accent1-color: #351431;
+    --accent2-color: #4d5804;
+    --heading-font: 'Roboto';
+    
+    --paragraph-font:'open(sans)';
+}
+
+
+
+h1,h2 { 
+    width: auto;
+    height: auto;
+    color: #351431;
+    font-family: 'open(sans)';
+}
+
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    
+}
+
+nav ul li {
+    display: inline;      /* Make list items inline */
+    margin-left: 20px;  /* Add some space between items either left or right*/
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color:#351431        /* Change text color */
+}
+
+nav ul li a:hover {
+    color: #007BFF;      /* Change color on hover */
+}
+.social-media-link a {
+    text-decoration: none;
+    
+    
+}
+  
+  .social-media-link img {
+    width: 40px;
+}
+  
+  .social-media-link {
+    position: relative;
+    left: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+footer {
+    border: 2px solid;
+    background-color:#351431 ;
+}
+
