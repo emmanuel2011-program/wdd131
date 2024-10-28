@@ -8,48 +8,67 @@
     <meta name="author" content="Okoye Emmanuel">
     <meta name="keywords" content="SulejaHHMC, HTML Java Scripts, CSS, Customer training, loan Application, Agricultural Projects, Account Registration,Account Opening, Payment Request,Credit Card App, Mobile Application, ">
     <link rel="stylesheet" href="styles/Sulejahm.css">
-    <link rel="stylesheet" href="styles/">
-
+    <link rel="stylesheet" href="styles/sulejahm-big.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 
     <script src="scripts/SulejaHm.js" defer></script>
     <script src="scripts/getdate.js" defer></script>
-    <title>SulejaHHMC site-plan</title>
+    <title>SulejaHHMC Home</title>
 </head>
 
 <body>
     <header>
-        <source src="images/savings.jpg" media="(min-width=500px)">
-        <img class="logo" src="images/savings.jpg"  width="200" height="120" alt="SulejaHHMC design logo of hand holding up a coin">
-
-        <h1 class="action">Suleja HHMC LTD</h1>
-        <nav>
-            <div class="hamburger" id="hamburger">&#9776;</div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Staff Training</a></li>
-                <li><a href="#">Product and services</a></li>
-                <li><a href="#">About SulejaHHMC</a></li>
-            </ul>
-        </nav>
+        <div class="SulejaHHMC-logo">
+            <a href="./index.html"><img class="logo" src="images/savings.jpg"  width="200" height="120" alt="SulejaHHMC design logo of hand holding up a coin">
+            </a>
+            <h1 class="action">Suleja HHMC LTD</h1>
+        </div>
+            
+            <div class="navpan">
+                <nav class="navigation">
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./staff_training.html">Staff Training</a></li>
+                            <li><a href="./product_and_services.html">Product and services</a></li>
+                            <li><a href="./about.html">About SulejaHHMC</a></li>
+                        </ul>
+                
+                </nav>
+        
+            </div>
     </header>
     <main>
-        <div class="division items">
-            <h2>
-               Principles of Operation 
-            </h2>
+    
+        <h1>
+            Principles of Operation 
+        </h1>
+        <div class="block">
             <ul>
                 <li>Contribution in Savings</li>
                 <li>Loan facilities</li>
                 <li>Invest resources on businesses</li>
                 <li>facilities are on first come first to be served</li>
             </ul>
+
+            <a href="SHHMC:SHHMcs@gmail.com">Contact us to request a customer service response @ this handles</a>
         </div>
            
          
-        <div class="division items">
+        <div class="media-logo">
+            <p> <a href="https://www.iconfinder.com/search?q=facebook&price=free&license=gte"> 
+                <img src="images/facebook.webp" alt="facebook"></a>
+            </p>
+            <p>
+                <a href="https://www.iconfinder.com/icons/3225179/app_logo_media_popular_social_whatsapp_icon">
+                <img src="images/watsapp.webp" alt="watsapp"></a>
+            </p>
+            <p>
+                <a href="https://www.iconfinder.com/icons/3225191/app_instagram_logo_media_popular_social_icon">
+                    <img src="images/twitter.webp" alt="twitter"> 
+                </a>
+            </p>
             <h2>Our Story</h2>
             <a>The Suleja Helping Hand Multipurpose Cooperative Limited was established in the year 2016. The cooperative are solely based on providing facilities to small and medium scale businesses and other trnsaction. Following are the aims of the cooperative</a>
             <ul>
@@ -86,20 +105,10 @@
     </main>
 
     <footer>
-        <p id="copywrite"></p>
-        <p id="modified"></p>
-        <nav class="social-media-link">
-            <a href="https://www.iconfinder.com/search?q=facebook&price=free&license=gte">
-                <img src="images/facebook.webp" alt="facebook">
-            </a>
-            <a href="https://www.iconfinder.com/icons/3225179/app_logo_media_popular_social_whatsapp_icon">
-                <img src="images/watsapp.webp" alt="watsapp">
-            </a>
-            <a href="https://www.iconfinder.com/icons/3225191/app_instagram_logo_media_popular_social_icon">
-                <img src="images/twitter.webp" alt="twitter"> 
-            </a>
-        </nav>
-
+        <p>
+            &copy; <span id="currentyear"></span> Emmanuel Okoye, Abuja, Nigeria
+          </p>
+          <p id="lastModified"></p>
     </footer>
 </body>
 </html>
