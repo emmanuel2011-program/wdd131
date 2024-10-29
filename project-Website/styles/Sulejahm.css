@@ -18,6 +18,11 @@ background-color: #4e104e;
 header {
     background-color: #242124;
 }
+
+.navpan {
+    display: flex;
+    justify-content: center;
+}
 h1,h2,h3 { 
     width: auto;
     height: auto;
@@ -36,8 +41,11 @@ nav ul {
 
 nav ul li {
     display: inline;      /* Make list items inline */
-    margin-left: 20px;  /* Add some space between items either left or right*/
+    margin: 20px;  /* Add some space between items either left or right*/
+       
+
 }
+
 
 nav ul li a {
     text-decoration: none; /* Remove underline from links */
