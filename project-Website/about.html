@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="WDD 131 - project page for Okoye Emmanuel">
     <meta name="author" content="Okoye Emmanuel">
-    <meta name="keywords" content="SulejaHHMC, HTML Java Scripts, CSS, Customer training, loan Application, Agricultural Projects, Account Registration,Account Opening, Payment Request,Credit Card App, Mobile Application, ">
+    <meta name="keywords" content="SulejaHHMC, HTML, JavaScript, CSS, Customer training, loan Application, Agricultural Projects, Account Registration, Account Opening, Payment Request, Credit Card App, Mobile Application">
     <link rel="stylesheet" href="styles/Sulejahm.css">
     <link rel="stylesheet" href="styles/sulejahm-big.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
-
+    
     <script src="scripts/SulejaHm.js" defer></script>
     <script src="scripts/getdate.js" defer></script>
     <title>SulejaHHMC Home</title>
@@ -21,54 +21,57 @@
 <body>
     <header>
         <div class="SulejaHHMC-logo">
-            <a href="./index.html"><img class="logo" src="images/savings.jpg"  width="200" height="120" alt="SulejaHHMC design logo of hand holding up a coin">
+            <a href="./index.html">
+                <img class="logo" src="images/savings.jpg" width="200" height="120" alt="SulejaHHMC design logo of hand holding up a coin">
             </a>
             <h1 class="action">Suleja HHMC LTD</h1>
         </div>
         
-        <div class="navpan">
-            <nav class="navigation">
-                    <ul>
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./services.html">Training</a></li>
-                        <li><a href="./product.html">Product</a></li>
-                        <li><a href="./about.html">About</a></li>
-                    </ul>
-                </nav>
-
-            </nav>
+        <nav class="navigation">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./product.html">Product</a></li>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
-    
-    <div class="hero">
-        <article>
-            <img src="images/wheat processing.jpg" alt="Local wheat Proceessing in a Bag">
-            <p>Our purpose is to make the cooperative society an international family accommodative of all ideas and strategies of all members with harmonization according to international best practices in order to be economically and corporately successful in its services by:
-                </p>
-        </article>
-    </div>
+        <div class="hero">
+            <article>
+                <h3>Member processing Local Wheat</h3>
+                <img src="images/wheat_processing.jpg" alt="Local wheat processing in a bag">
+                <p>Our purpose is to make the cooperative society an international family accommodative of all ideas and strategies of all members with harmonization according to international best practices in order to be economically and corporately successful in its services.</p>
+            </article>
+        </div>
+
+        <section class="history">
+            <h2>History</h2>
+            <p>This cooperative started as a credit and loan thrift organization for small and medium-scale business owners accessing facilities to boost their businesses, ranging from boat hire, life jackets, and more. It was founded on July 15, 1998, with total liability assets worth just under $10,000, and its initial employees were 6 persons.</p>
+        
+            <p>This company started as a rental site for rafting material, including boat hire, life jackets, and more. It was founded on July 15, 1998, with total liability assets worth just under $10,000, and its initial employees were 6 persons.</p>
+        </section>
+
         <div class="media-logo">
-            <p> <a href="https://www.iconfinder.com/search?q=facebook&price=free&license=gte"> 
-                <img src="images/facebook.webp" alt="facebook"></a>
+            <p><a href="https://www.iconfinder.com/search?q=facebook&price=free&license=gte">
+                <img src="images/facebook.webp" alt="Facebook"></a>
             </p>
             <p>
                 <a href="https://www.iconfinder.com/icons/3225179/app_logo_media_popular_social_whatsapp_icon">
-                <img src="images/watsapp.webp" alt="watsapp"></a>
+                    <img src="images/watsapp.webp" alt="WhatsApp"></a>
             </p>
             <p>
                 <a href="https://www.iconfinder.com/icons/3225191/app_instagram_logo_media_popular_social_icon">
-                    <img src="images/twitter.webp" alt="twitter"> 
+                    <img src="images/twitter.webp" alt="Twitter"> 
                 </a>
             </p>
         </div>
-            
     </main>
 
     <footer>
-        <p>
-            &copy; <span id="currentyear"></span> SulejaHHMC, Abuja, Nigeria
-          </p>
-          <p id="lastModified"></p>
+        <p>&copy; <span id="currentyear"></span> SulejaHHMC, Abuja, Nigeria</p>
+        <p id="lastModified"></p>
     </footer>
 </body>
 </html>
