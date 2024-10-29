@@ -1,0 +1,27 @@
+@media screen and (min-width: 650px) {
+
+    /* background-color: aqua; */
+	nav ul, li {
+        display: block;
+        flex: 1 1 100%;
+        margin: 0 1rem 1rem 1rem;
+        }
+
+    .filtering {
+        display: flex;
+    }
+
+    /* Change state in large view */
+    .filtering li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .filtering a {
+        text-align: center;
+    }
+    
+    #filtermenu {
+        display: none;
+    }
+}
