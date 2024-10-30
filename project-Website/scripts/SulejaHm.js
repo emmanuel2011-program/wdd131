@@ -1,11 +1,10 @@
-document.addEventListener("DOMContentLoaded", function ()  {
+document.addEventListener('DOMContentLoaded',  () => {
     const hamburger = document.getElementById("hamburger");
-    const navMenu = document.getElementById("nav ul");
+    const navMenu = document.getElementById("nav-menu");
   
     // Hamburger menu functionality
     
-  hamburger.addEventListener('click',function () 
-  {
+  hamburger.addEventListener('click', () => {
     navMenu.classList.toggle('active');
     
 

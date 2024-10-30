@@ -1,27 +1,30 @@
-@media screen and (min-width: 650px) {
-
-    /* background-color: aqua; */
-	nav ul, li {
-        display: block;
-        flex: 1 1 100%;
-        margin: 0 1rem 1rem 1rem;
-        }
-
-    .filtering {
-        display: flex;
-    }
-
-    /* Change state in large view */
-    .filtering li {
-        display: block;
-        flex: 1 1 100%;
-    }
-
-    .filtering a {
-        text-align: center;
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block; /* Show hamburger on smaller screens */
     }
     
-    #filtermenu {
-        display: none;
+    .navigation {
+        display: none; /* Hide navigation by default */
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #f8f9fa;
+        width: 100%;
+    }
+
+    .navigation.active {
+        display: flex; /* Show navigation when active */
+    }
+
+    .navigation li {
+        margin: 0.5rem 0; /* Adjust margin for vertical list */
+    }
+}
+/* Responsive Font Size */
+@media (max-width: 600px) {
+    .SulejaHHMC-logo .action {
+        font-size: 1.2em; /* Smaller font size on smaller screens */
     }
 }

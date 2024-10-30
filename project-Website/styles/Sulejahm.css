@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #b6db0f;
+    --primary-color: #0f0f0f;
     --secondary-color: #721e21;
     --back-color: #4e104e;
     --back-color: #242124;
@@ -10,156 +10,220 @@
     
 }
 
+/* General Styles */
 body {
-color: #242124;
-background-color: #4e104e;
-margin-bottom: 0;
-
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color: #242124;
-    color: #0a5da7;
-}
-
-.navpan {
     display: flex;
-    justify-content: center;
-}
-h1,h2,h3 { 
-    width: auto;
-    height: auto;
-    color: #f0f8ff;
-    background-color: #242124;
-    
-
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #0a5da7;
 }
 
-
-form {
-    max-width: 600px; /* Set a maximum width for the form */
-    margin: 0 auto; /* Center the form */
-    padding: 20px; /* Add some padding */
-    border: 1px solid #ccc; /* Optional: border for visual separation */
-    border-radius: 5px; /* Optional: rounded corners */
-    background-color: #f9f9f9; /* Optional: background color */
-    color: #242124;
+.SulejaHHMC-logo {
+    text-align: center; /* Center the content */
+    margin: 20px auto; /* Add some margin */
 }
 
-label {
-    display: block; /* Make labels take up full width */
-    margin-bottom: 5px; /* Space between label and input */
-}
-
-input, select, textarea {
-    width: 100%; /* Make inputs take full width */
-    padding: 10px; /* Add some padding for comfort */
-    margin-bottom: 15px; /* Space between inputs */
-    border: 1px solid #ccc; /* Optional: border for inputs */
-    border-radius: 4px; /* Optional: rounded corners for inputs */
-    box-sizing: border-box; /* Ensure padding doesn't affect width */
-}
-
-button {
-    padding: 10px 15px; /* Add padding for the button */
-    background-color: #b6db0f; /* Button background color */
-    color: white; /* Button text color */
-    border: none; /* Remove default border */
-    border-radius: 5px; /* Optional: rounded corners for button */
-    cursor: pointer; /* Change cursor to pointer */
-}
-
-button:hover {
-    background-color: #45a049; /* Darken button on hover */
-    color: #f0f8ff;
-
-}
-
-ul, a, p {
-    color: #b6db0f;
-    background-color: #242124;
-}
-
-article {
-    text-align: center; /* Center the text if desired */
-}
-
-.hero img {
-    width: 100%; /* Make the image responsive */
+.SulejaHHMC-logo .logo {
+    max-width: 100%; /* Make the logo responsive */
     height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove any extra space below the image */
-    max-width: 600px; /* Optional: set a maximum width */
-    margin: 0 auto; /* Center the image within the article */
+    width: 200px; /* Default width */
 }
-nav ul {
-    list-style-type: none; /* Remove bullet points */
+
+.SulejaHHMC-logo .action {
+    font-size: 1.5em; /* Adjust font size for better visibility */
+    margin-top: 10px; /* Space above the heading */
+    color: #0f0f0f; /* Optional: set a color */
+}
+
+.SulejaHHMC-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navigation Styles */
+.navpan {
+    position: relative;
+}
+
+.hamburger {
+    cursor: pointer;
+    display: none; /* Hidden by default */
     
 }
 
-nav ul li {
-    display: inline;      /* Make list items inline */
-    margin: 20px;  /* Add some space between items either left or right*/
-       
-
+.navigation ul {
+    list-style-type: none;
+    margin-right: 5rem;
+    padding: 0;
+    display: flex;
+    
 }
 
-
-
-nav ul li a {
-    text-decoration: none; /* Remove underline from links */
-    color: #f0f8ff;        /* Change text color */
-    background-color: #007BFF;
+.navigation li {
+    margin: 0 1rem;
 }
 
-nav ul li a:hover {
-    color: #007BFF;      /* Change color on hover */
-    background-color: #f0f8ff;
-}
-.media-logo link a {
+.navigation a {
     text-decoration: none;
-    
-    
+    color: #0f0f0f;
 }
-  
-  .media-logo img {
-    width: 40px;
-    display: flex;
-    justify-content: center;
-    
+.navigation.active {
+    display: block; /* Show as a block element */
+    background-color: #f8f9fa; /* Optional: Add background color */
+    position: absolute; /* Optional: position it below the hamburger */
+    top: 100%; /* Align it directly below */
+    left: 0;
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it appears above other content */
+}
+.employees img {
+    width: 100%;
 }
 
-.media-logo {
-    display: flex;
-    gap: 20%;
-}
 
 .employees div {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+}
+.hero {
+    max-width: 1200px; /* Optional: Set a max width for the hero section */
+    margin: 0 auto; /* Center the hero section */
+    padding: 20px; /* Add some padding */
+    text-align: center; /* Center text within the article */
+}
+
+.hero img {
+    width: 100%; /* Make the image take up the full width of its container */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 8px; /* Optional: add rounded corners */
+    margin: 20px 0; /* Space above and below the image */
+}
+
+.hero h2, .hero h3, .hero p {
+    margin: 10px 0; /* Add margin for spacing between elements */
+}
+
+
+
+
+figure {
+    margin: 10px; /* Adds space around each figure */
+    flex: 1 1 200px; /* Allow items to grow and shrink; minimum width is 200px */
+    max-width: 300px; /* Maximum width for larger screens */
+}
+
+
+
+figcaption {
+    margin-top: 10px; /* Space between image and caption */
+    font-size: 1.1em; /* Slightly larger font for captions */
     
 }
-figure {
-    margin: 10px; /* Add some space between figures */
+
+main {
+    max-width: 600px; /* Limit the width of the form */
+    margin: 0 auto; /* Center the form */
+    padding: 20px; /* Add padding */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
-.employees {
-    text-align: center; /* Center the heading and figures */
-    color: #f0f8ff;
-    background-color: #242124;
+
+h2 {
+    text-align: center; /* Center the heading */
+    color: #0f0f0f; /* Dark text color */
+}
+
+label {
+    display: block; /* Make labels block elements */
+    margin: 15px 0 5px; /* Spacing around labels */
+    font-weight: bold; /* Bold labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea {
+    width: 100%; /* Full-width inputs */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 15px; /* Space below inputs */
+    border: 1px solid; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1em; /* Font size */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #007BFF; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+textarea {
+    height: 100px; /* Fixed height for textarea */
+    resize: vertical; /* Allow vertical resizing */
+}
+
+button {
+    background-color: #007BFF; /* Button color */
+    color: #f0f8ff; /* Button text color */
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1em; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 100%; /* Full-width button */
+}
+
+button:hover {
+    background-color: #005da7; /* Darker color on hover */
+}
+
+span {
+    font-weight: normal; /* Normal weight for asterisk */
+}
+.media-logo {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the icons */
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    gap: 10px; /* Space between icons */
+    padding: 10px; /* Optional padding around the container */
+}
+
+.media-logo p {
+    margin: 0; /* Remove default margin */
+}
+
+.media-logo img {
+    width: 60px; /* Set a fixed width for the icons */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s; /* Smooth scale effect */
+}
+
+.media-logo img:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
 }
 
 
-.employees img {
-    width: 500px;
-    height: 300px;
-    margin: 2px;
-}
+
+
 footer {
-    border: 2px solid;
-    padding: 20px;
-    color: #f0f8ff;
-    background-color: #242124;
-    margin-bottom: 0;
-
+    padding: 10px;
+    background-color: #0a5da7;
 }
 
