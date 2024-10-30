@@ -21,9 +21,7 @@
     .navigation li {
         margin: 0.5rem 0; /* Adjust margin for vertical list */
     }
-}
-/* Responsive Font Size */
-@media (max-width: 600px) {
+ 
     .SulejaHHMC-logo .action {
         font-size: 1.2em; /* Smaller font size on smaller screens */
     }
