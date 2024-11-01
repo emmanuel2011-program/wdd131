@@ -56,6 +56,7 @@ header {
 .hamburger {
     cursor: pointer;
     display: none; /* Hidden by default */
+    color: #000000;
     
     
 }
@@ -110,7 +111,7 @@ header {
     margin: 20px 0; /* Space above and below the image */
 }
 h1 {
-    color: #0f0f0f;
+    color: #000000;
 }
 .hero h2, .hero h3, .hero p {
     margin: 10px 0; /* Add margin for spacing between elements */
