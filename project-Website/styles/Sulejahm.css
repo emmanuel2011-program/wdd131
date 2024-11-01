@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #0f0f0f;
+    --primary-color: #000000;
     --secondary-color: #721e21;
-    --back-color:#0e6abb ;
+    --back-color:#559bf6 ;
 
     --accent2-color: #f0f8ff;
     --accent1-color: #242124;
@@ -22,8 +22,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #0a5da7;
-    color: #0f0f0f;
+    background-color: #559BF6;
+    color: #000000;
 }
 
 .SulejaHHMC-logo {
