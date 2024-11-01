@@ -1,7 +1,7 @@
 :root {
     --primary-color: #0f0f0f;
     --secondary-color: #721e21;
-    --back-color:#0a5da7 ;
+    --back-color:#0e6abb ;
 
     --accent2-color: #f0f8ff;
     --accent1-color: #242124;
@@ -236,6 +236,6 @@ span {
 footer {
     padding: 10px;
     background-color: #0a5da7;
-    color: #0f0f0f;
+    color: black;
 }
 
