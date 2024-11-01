@@ -223,6 +223,12 @@ span {
 }
 .filtering {
     list-style-type: none;
+    
+}
+.filtering a {
+    text-decoration: none;
+    color: #721e21;
+    
 }
 
 
