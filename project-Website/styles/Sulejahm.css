@@ -1,10 +1,10 @@
 :root {
     --primary-color: #0f0f0f;
     --secondary-color: #721e21;
-    --back-color: #242124;
+    --back-color:#0a5da7 ;
 
     --accent2-color: #f0f8ff;
-    --accent1-color: #0a5da7;
+    --accent1-color: #242124;
     --font-family: 'Roboto', sans-serif;
     
 }
@@ -14,6 +14,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    
 }
 
 header {
@@ -22,6 +23,7 @@ header {
     align-items: center;
     padding: 1rem;
     background-color: #0a5da7;
+    color: #0f0f0f;
 }
 
 .SulejaHHMC-logo {
@@ -73,6 +75,7 @@ header {
 .navigation a {
     text-decoration: none;
     color: #0f0f0f;
+    
 }
 .navigation.active {
     display: block; /* Show as a block element */
@@ -191,7 +194,7 @@ button {
 }
 
 button:hover {
-    background-color: #005da7; /* Darker color on hover */
+    background-color: #721e21; /* Darker color on hover */
 }
 
 span {
@@ -225,5 +228,6 @@ span {
 footer {
     padding: 10px;
     background-color: #0a5da7;
+    color: #0f0f0f;
 }
 
